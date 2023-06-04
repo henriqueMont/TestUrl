@@ -10,8 +10,8 @@ public class EventManager : MonoBehaviour
 
     void Awake()
     {
-        getUrl = FindObjectOfType<GetUrl>();
-        displayUrl = FindObjectOfType<DisplayUrl>();
+        //getUrl = FindObjectOfType<GetUrl>();
+        //displayUrl = FindObjectOfType<DisplayUrl>();
 
         getUrl.UrlLoaded += displayUrl.OnUrlLoaded;
     }
